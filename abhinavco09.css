@@ -1,0 +1,36 @@
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+p{
+	font-size: 1.25em;
+}
+img{
+	display: block;
+    margin: 0 auto;
+    height: 5em;
+    width: 20em;
+}
+.box{
+display:inline-block;
+width:200px;
+margin-right:10px;
+text-align:right;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#hero{
+	font-weight: 100;
+	font-size: 1.35em;
+}
+#id_output{
+	font-weight: bold;
+}
+#reso2
+{
+	text-align: center;
+	background-color: lightgreen;
+}
+#reso1
+{
+	background-color: whitesmoke;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Resonance Kota</title>
+	<link rel="stylesheet" type="text/css" href="abhinavco09.css">
+</head>
+<body id="reso1">
+	<img src="https://www.edufever.com/wp-content/uploads/2018/01/Resonance-logo-min.jpg">
+	<h1> Register for Resonance Kota </h1>
+	<!-- <p> This application is for buying a free ticket for the Mandi House Comic Con. Submitting this application will send your application to our booking associates. After certain steps of verification, you will get a confirmation email that will confirm your ticket.<span id="hero"> Any false information may lead to cancellation of your application.</span></p>-->
+	<form>
+		<label class="box" for="first_name">First Name:&nbsp;</label>
+		<input type="text" name="first_name" id="first_name" style="align-content: right;" required><br><br>
+        
+		<label class="box" for="last_name">Last Name:&nbsp;</label>
+		<input type="text" name="last_name" id="last_name"><br><br>
+
+		<label class="box" for="age">Age:&nbsp;</label>
+		<input type="number" name="age" id="age"><br><br>
+
+		<label class="box" for="gender">Gender:&nbsp;</label>
+		<input type="radio" name="gender" id="gender" value="Male">Male
+		<input type="radio" name="gender" id="gender" value="Female">Female
+		<input type="radio" name="gender" id="gender" value="Other">Other
+		<br><br>
+
+		<label class="box" for="id_mb">Enter Mobile No:&nbsp;</label>
+		
+		<input type="number" name="id_mb" id="id_mb" required align="right" onblur="validateMb();">
+		<span id="id_output1"></span><br><br>
+		<label class="box" for="id_email">Enter Email Id:&nbsp;</label>
+		
+		<input type="text" name="id_email" id="id_email" required align="right" onblur="validateEmail();">
+		<span id="id_output2"></span><br><br>
+
+		<label class="box" for="gender">Percentage in 10th:&nbsp;</label>
+		<input type="radio" name="gender" id="gender" value="Above 90">Above 90
+		<input type="radio" name="gender" id="gender" value="Below 90">Below 90
+		
+		<br><br>
+		<label class="box" for="gender">How did you hear about us?&nbsp;</label>
+		<textarea rows="2"></textarea><br><br>
+
+		<label class="box" for="document"><p> Upload <br>10th marksheet:&nbsp;</p></label>
+		<input type="file" name="document" id="document" accept="image/*">
+		<br>
+
+		<label for="declare">Declaration:&nbsp;</label>
+		<input type="checkbox" name="declare" id="declare" onblur="Declaration();"><span id="output_declare"></span>
+		<p>
+			I hereby declare that all the information provided above is correct and Resonance Kota is bound to cancel the registration if miscrepancy is found.
+			</p>
+	</form>
+	<div id="reso2">
+	<p> &copy; Resonance Eduventures 2020</p>
+	</div>
+
+	<script type="text/javascript" src="abhinavco09.js"></script>
+</body>
+</html>
